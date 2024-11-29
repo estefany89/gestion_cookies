@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Sistema de gestión de cookies </h1>
+{% if consent == "accepted" %}
+    <p>Has aceptado el uso de cookies</p>
+{% elif consent == "rejected" %}
+    <p>Has rechazado el uso de cookies</p>
+{% else %}
+    <p>Necesitamos tu consentimiento para el uso de cookies <a href="{{ url_for('consent')}}">preferencias</a> </p>
+{% endif %}
+{% endblock %}
