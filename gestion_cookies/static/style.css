@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Estilos */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -138,7 +138,7 @@ form .reject-btn:hover {
     background-color: #c82333;
 }
 
-/* Mensajes flash centrados */
+/* Mensajes flash */
 ul {
     list-style-type: none;
     padding: 0;
