@@ -4,25 +4,25 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightblue;
-    color: #333;
+    color: darkgray;
 }
 
 h1 {
     font-size: 2rem;
-    color: #333;
+    color: darkgray;
     text-align: center;
     margin-top: 20px;
 }
 
 p {
     font-size: 1rem;
-    color: #555;
+    color: dimgray;
     text-align: center;
     margin-bottom: 20px;
 }
 
 a {
-    color: #007bff;
+    color: mediumblue;
     text-decoration: none;
 }
 
@@ -30,14 +30,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilo para el formulario de consentimiento */
+/* Estilo de el formulario */
 #cookie-banner {
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
-    color: #333;
+    background-color: white;
+    color: darkgray;
     padding: 15px 25px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -49,7 +49,7 @@ a:hover {
 }
 
 #cookie-banner button {
-    background-color: #28a745;
+    background-color: forestgreen;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -61,19 +61,19 @@ a:hover {
 }
 
 #cookie-banner .reject-btn {
-    background-color: #dc3545;
+    background-color: firebrick;
 }
 
 #cookie-banner button:hover {
-    background-color: #218838;
+    background-color: darkgreen;
 }
 
 #cookie-banner .reject-btn:hover {
-    background-color: #c82333;
+    background-color: darkred;
 }
 
 #cookie-banner a {
-    color: #007bff;
+    color: mediumblue;
     text-decoration: none;
 }
 
@@ -81,9 +81,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Barra de navegación */
 header {
-    background-color: #007bff;
+    background-color: mediumblue;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -104,12 +103,12 @@ header nav a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: black;
     color: white;
     font-size: 1rem;
 }
 
-/* Estilo para el formulario de consentimiento*/
+/* Estilo para el formulario */
 form {
     text-align: center;
 }
@@ -118,7 +117,7 @@ form button {
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
-    background-color: #28a745;
+    background-color: forestgreen;
     color: white;
     font-size: 16px;
     border: none;
@@ -127,18 +126,18 @@ form button {
 }
 
 form button:hover {
-    background-color: #218838;
+    background-color: darkgreen;
 }
 
 form .reject-btn {
-    background-color: #dc3545;
+    background-color: firebrick;
 }
 
 form .reject-btn:hover {
-    background-color: #c82333;
+    background-color: darkred;
 }
 
-/* Mensajes flash */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -146,7 +145,7 @@ ul {
 }
 
 ul li {
-    background-color: #28a745;
+    background-color: forestgreen;
     color: white;
     padding: 12px;
     margin-bottom: 10px;
@@ -154,3 +153,4 @@ ul li {
     font-size: 16px;
     display: inline-block;
 }
+
